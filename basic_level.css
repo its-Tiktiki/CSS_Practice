@@ -1,0 +1,25 @@
+* {
+    color : black;
+}
+
+button {
+    color: rgb(84, 26, 134);
+    background-color: #ffffff;
+}
+
+body {
+    background-color: rgb(40, 117, 117);
+}
+
+#heading1 {
+    color : rgb(58, 10, 79);
+}
+
+#heading2 {
+    color : purple;
+}
+
+.heading3 {
+    color :rgb(0, 10, 10);
+}
+
