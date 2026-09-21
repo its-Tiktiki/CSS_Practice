@@ -1,0 +1,44 @@
+p {
+    text-align: start;
+    font-family: arial, roboto;  /* if arial doesnt exist then roboto */
+}
+
+h1 {
+    text-align: center;
+    text-decoration: purple underline;
+    font-weight: normal;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bolder;
+}
+
+h4 {
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: rgb(55, 0, 66) wavy underline;
+
+}
+
+#h5 {
+    font-weight: 100;
+}
+
+#h6 {
+    font-weight: 300;
+}
+
+#h7 {
+    font-weight: 600;
+}
+
+#h8 {
+    font-weight: 800;
+}
+

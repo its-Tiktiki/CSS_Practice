@@ -1,0 +1,17 @@
+#box {
+    background-color: rgb(123, 123, 185);
+    color: rgb(212, 183, 183);
+}
+
+.heading {
+    color: rgb(199, 134, 174);
+}
+
+/* 
+h1, h2, h3{
+    color: rgb(199, 134, 174);
+} */
+
+button{
+    background-color: green;
+}
