@@ -1,6 +1,10 @@
+body {
+    background-color: rgb(30, 160, 127);
+}
+
 div {
     border-radius: 5%;
-    background-color: rgb(171, 132, 81);
+    background-color: rgba(210, 110, 152, 0.5);
     height: 100px;
     width: 100px;
     text-align: center;
@@ -11,4 +15,14 @@ div {
     padding-top: 25px; */
     padding: 25px;
     margin-top: 25px;
+    display: inline-block; /* behaves like inline
+     element but we can set margine and padding */
+}
+
+#box2{
+    display: none;
+}
+
+#box1 {
+    visibility: hidden;
 }

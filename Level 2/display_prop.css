@@ -1,0 +1,9 @@
+div {
+    background-color: pink;
+    display: inline;
+}
+
+button {
+    background-color: aquamarine;
+    display: block;
+}
