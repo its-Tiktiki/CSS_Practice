@@ -1,0 +1,21 @@
+#box1 {
+    height: 100px;
+    width: 200px;
+    background-color: purple;
+    font-size: 10px;
+}
+
+#box2 {
+    height: 50px;
+    width: 50%;
+    background-color: antiquewhite;
+    margin-left: 10%; /* parent widths 10% */
+    font-size: 2em; /* 2 times of parents font size */
+    width: 5em; /* 5 times of its own font size */
+}
+
+#b1 {
+    height: 50vh; /* vh / vw reletive to viewport/ browsers height / width */
+    width: 5rem; /* 5 times of root fonts size */
+    background-color: aqua;
+}
