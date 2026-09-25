@@ -1,20 +1,41 @@
 div {
     height: 100px;
     width: 100px;
-    background-color: aquamarine;
     border: 2px solid black;
     display: inline-block;
     position: static;
 }
 
 #box1 {
+    background-color: aquamarine;
     position: static;
     /* for static position left right top bottom wont work*/
 }
 
 #box2 {
+    background-color: rgb(255, 127, 159);
     position: relative; /* related to it self */
     top: 20px;
     left: 20px;
+}
+
+#box3 {
+    background-color: rgb(157, 127, 255);
+    position: absolute; /* related to its closest ancestors */
+    top: 100px;
+    left: 300px;
+}
+
+#box4 {
+    position: fixed; /* related to the */
+    background-color: rgb(253, 255, 127);
+    top: 0;
+}
+
+#box5 {
+    position: sticky;
+    background-color: hotpink;
+    top: 0px;
+    left: 300px;
 }
 
