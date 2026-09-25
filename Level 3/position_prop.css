@@ -33,7 +33,7 @@ div {
 }
 
 #box5 {
-    position: sticky;
+    position: sticky; /* sticks to the top when the positions comes */
     background-color: hotpink;
     top: 0px;
     left: 300px;
