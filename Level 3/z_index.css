@@ -1,0 +1,35 @@
+div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    position: static;
+}
+
+#box1 {
+    background-color: aquamarine;
+    position: static;
+    /* for static position left right top bottom wont work*/
+}
+
+#box2 {
+    background-color: rgb(255, 127, 159);
+    position: relative; /* related to it self */
+    top: 20px;
+    left: 10px;
+    z-index: 1;
+}
+
+#box3 {
+    background-color: rgb(157, 127, 255);
+    position: absolute; /* related to its closest ancestors */
+    top: 500px;
+    left: 20px;
+}
+
+#box4 {
+    position: fixed; /* related to the browser window*/
+    background-color: rgb(253, 255, 127);
+    top: 50px;
+    z-index: 2; /* overlap position */ 
+}

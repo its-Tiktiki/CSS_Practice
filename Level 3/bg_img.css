@@ -1,0 +1,30 @@
+div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    position: static;
+}
+
+#box1 {
+    background-color: aquamarine;
+    background-image: url("./spider_lili.jpg");
+    background-size: cover; /* fits the whole picture */
+}
+
+#box2 {
+    background-color: rgb(255, 127, 159);
+    background-image: url("./spider_lili.jpg");
+    background-size: contain;
+
+}
+
+#box3 {
+    background-color: rgb(157, 127, 255);
+    background-image: url(./spider_lili.jpg);
+    background-size: auto;
+}
+
+#box4 {
+    background-color: rgb(253, 255, 127);
+}
