@@ -1,0 +1,17 @@
+#div {
+    height: 100px;
+    width: 200px;
+    color: white;
+    font-weight: 1000;
+    text-align: center;
+    background-image: url("./img.jpg") ;
+    background-size: cover;
+    border: 10px solid black;
+    position: fixed;
+    right: 0px;
+    top: 50px;
+}
+
+#p1 {
+    text-align: center;
+}
