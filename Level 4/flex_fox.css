@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+}
+
+div {
+    height: 100px;
+    width: 150px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    /* align-content: flex-start; */
+}
+
+#box1 {
+    background-color: bisque;
+}
+
+#box2 {
+    height: 200px ;
+    align-self: flex-end;
+    background-color: aquamarine;
+}
+
+#box3 {
+    height: 75px;
+    background-color: rgb(129, 19, 94);
+}
+
+#box4 {
+    background-color: rgb(66, 119, 189);
+}
+
+#box5 {
+    align-self : flex-end;
+    background-color: rgb(99, 7, 128);
+}
