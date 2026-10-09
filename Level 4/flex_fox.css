@@ -4,33 +4,37 @@ body {
 
 div {
     height: 100px;
-    width: 150px;
+    width: 50px;
     display: inline-block;
     border: 2px solid black;
 }
 
 #container {
-    width: 600px;
-    height: 600px;
+    width: 700px;
+    height: 300px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: flex-start;
     /* align-content: flex-start; */
 }
 
 #box1 {
     background-color: bisque;
+    flex-grow: 1;
+   
 }
 
 #box2 {
+    flex-shrink: 2; /* shrinks 2X compared to other boxes*/
     height: 200px ;
-    align-self: flex-end;
+    /* align-self: flex-end; */
     background-color: aquamarine;
 }
 
 #box3 {
+    flex-grow: 2;
     height: 75px;
     background-color: rgb(129, 19, 94);
 }
@@ -40,6 +44,6 @@ div {
 }
 
 #box5 {
-    align-self : flex-end;
+    /* align-self : flex-end; */
     background-color: rgb(99, 7, 128);
 }
