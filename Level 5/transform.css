@@ -1,0 +1,17 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(110, 33, 105);
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    /* rotate: x 90deg; 3rd rotations x, y, z */
+    /* transform: scale(2); increses or decreses size, 1 means normal size */
+}
+
+div:hover{
+    /* transform: rotate(45deg); */
+    transform: scale(2, 1); /*scale(x/ width, y/ height)*/
+
+}
+
